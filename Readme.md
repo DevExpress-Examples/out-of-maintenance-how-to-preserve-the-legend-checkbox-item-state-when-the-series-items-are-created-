@@ -1,0 +1,8 @@
+# How to preserve the Legend checkbox item state when the Series items are created manually
+
+
+<p><strong>NOTE. </strong>Starting with v17.1, you can optionally save legend checkbox state for the chart's Series collection on callbacks. To activate this feature, enable the WebChartcontrol.<strong>SaveStateOnCallbacks</strong> option. If you prefer to use the manual Legend state initialization approach, set the <strong>SaveStateOnCallbacks</strong> property to <strong>False</strong>.<br><br>WebChartControl does not cache information about Series items and data source initialized at runtime. As a result, the <a href="https://documentation.devexpress.com/#AspNet/CustomDocument16242">Legend item checkbox state</a> cannot be applied correctly. This example illustrates how to save the Legend state into a Session variable and restore it using the Page_Load event handler. The <a href="https://documentation.devexpress.com/#AspNet/DevExpressXtraChartsWebWebChartControl_LegendItemCheckedtopic">WebChartControl.LegendItemChecked</a> event is used to obtain the current Legend panel state. Note that it is also required to disable the internal viewstate management using the WebChartControl.EnableViewState and WebChartControl.SaveStateOnCallbacks properties.<br><br>See also:<br><br><a href="https://www.devexpress.com/Support/Center/p/T470781">How to preserve the Legend checkbox item state when the Series Template approach is used to generate the Series collection</a>;<br><a href="https://www.devexpress.com/Support/Center/p/T504189">How to preserve the Legend checkbox item state in an ASP.NET MVC application</a>.</p>
+
+<br/>
+
+
