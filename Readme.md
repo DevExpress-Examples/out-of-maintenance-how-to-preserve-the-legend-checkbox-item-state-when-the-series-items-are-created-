@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Default.aspx.cs](./CS/dxSample/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/dxSample/Default.aspx.vb))
+<!-- default file list end -->
 # How to preserve the Legend checkbox item state when the Series items are created manually
 
 
