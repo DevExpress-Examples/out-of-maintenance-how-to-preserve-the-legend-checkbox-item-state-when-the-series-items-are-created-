@@ -5,7 +5,7 @@
 <!-- default file list end -->
 # How to preserve the Legend checkbox item state when the Series items are created manually
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t470764)**
+**[[Run Online]](https://codecentral.devexpress.com/t470764/)**
 <!-- run online end -->
 
 
